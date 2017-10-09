@@ -48,9 +48,9 @@
       </nav>
       <nav id="sub-nav">
         
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="Flux RSS"></a>
         
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+        <a id="nav-search-btn" class="nav-icon" title="Rechercher"></a>
       </nav>
       <div id="search-form-wrap">
         <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
@@ -96,7 +96,52 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/10/08/hello-world/" data-id="cj8jgx5ux0000k9q7015qn6jc" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2017/10/08/hello-world/" data-id="cj8jhkge00000rkq7hzv0sk0s" class="article-share-link">Partager</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-hexoIndex无法生成" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2015/10/09/hexoIndex无法生成/" class="article-date">
+  <time datetime="2015-10-09T01:14:36.000Z" itemprop="datePublished">2015-10-09</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2015/10/09/hexoIndex无法生成/">hexoIndex无法生成.md</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="hexo-g-无法生成-index"><a href="#hexo-g-无法生成-index" class="headerlink" title="hexo g 无法生成 index"></a>hexo g 无法生成 index</h2><p>构建情况如下图：</p>
+<p><img src="http://ojlsgreog.bkt.clouddn.com/ganningZHexoNoIndex" alt="img"></p>
+<p>但是一些文件没有生成，如 <code>index.html</code> 文件。</p>
+<h2 id="查看-npm-安装各-hexo-插件的情况"><a href="#查看-npm-安装各-hexo-插件的情况" class="headerlink" title="查看 npm 安装各 hexo 插件的情况"></a>查看 npm 安装各 hexo 插件的情况</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm ls --depth 0</div></pre></td></tr></table></figure>
+<h2 id="hexo-的一些插件未安装插件"><a href="#hexo-的一些插件未安装插件" class="headerlink" title="hexo 的一些插件未安装插件"></a>hexo 的一些插件未安装插件</h2><p><strong>npm ERR! missing npm ERR! missing hexo-generator-archive…</strong></p>
+<p><img src="http://ojlsgreog.bkt.clouddn.com/ganningZHexoNPMls.png" alt="img"></p>
+<h2 id="解决"><a href="#解决" class="headerlink" title="解决"></a>解决</h2><p>逐一安装缺失的包</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">npm install hexo-generator-archive --save</div><div class="line">...</div></pre></td></tr></table></figure>
+<p>安装完后重新构建即可解决。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2015/10/09/hexoIndex无法生成/" data-id="cj8jhkge60001rkq7hzwvx8ky" class="article-share-link">Partager</a>
       
       
     </footer>
@@ -176,7 +221,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2014/10/09/one-md/" data-id="cj8jgx5v40001k9q73abbofe9" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2014/10/09/one-md/" data-id="cj8jhkgeb0002rkq7miny464r" class="article-share-link">Partager</a>
       
       
     </footer>
@@ -203,7 +248,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Archives</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/10/">October 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/10/">October 2014</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/10/">October 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/10/">October 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/10/">October 2014</a></li></ul>
     </div>
   </div>
 
@@ -211,12 +256,16 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
+    <h3 class="widget-title">Articles récents</h3>
     <div class="widget">
       <ul>
         
           <li>
             <a href="/2017/10/08/hello-world/">Hello World</a>
+          </li>
+        
+          <li>
+            <a href="/2015/10/09/hexoIndex无法生成/">hexoIndex无法生成.md</a>
           </li>
         
           <li>
@@ -236,7 +285,7 @@
   <div class="outer">
     <div id="footer-info" class="inner">
       &copy; 2017 tanhaiyin<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+      Propulsé by <a href="http://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>
 </footer>
