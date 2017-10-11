@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next gemini use-motion" lang="zh-Hans">
+<html class="theme-next pisces use-motion" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -55,17 +55,35 @@
   
 
   
+    
+      
+    
 
-  
-
+    
   
 
   
 
   
     
+      
     
-    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+
+    
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Monda:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Lobster Two:300,300italic,400,400italic,700,700italic|PT Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
   
 
 
@@ -78,11 +96,13 @@
 <link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="vi编辑器," />
 
 
 
 
+
+  <link rel="alternate" href="/atom.xml" title="DawnTan的博客" type="application/atom+xml" />
 
 
 
@@ -95,13 +115,14 @@
 
 
 <meta name="description" content="vi基本介绍vi是一个编辑器，就类似于windows图形化shell中的记事本，所有的linux系统都会默认自带这个编辑器，通常文本的编辑工作，如果没有别的编辑器可用，就直接使用vi vi的别名：神之编辑器 emacs：编辑器之神 基本使用1vi [文件名] 可以通过vi后面跟上参数来打开指定的文件来编辑，文件名如果存在，就是编辑操作，如果文件名对应的文件不存在，就是新建操作 也可以不跟参数，只是">
+<meta name="keywords" content="vi编辑器">
 <meta property="og:type" content="article">
 <meta property="og:title" content="one.md">
 <meta property="og:url" content="http://yoursite.com/2014/10/09/one-md/index.html">
-<meta property="og:site_name" content="DawnTan">
+<meta property="og:site_name" content="DawnTan的博客">
 <meta property="og:description" content="vi基本介绍vi是一个编辑器，就类似于windows图形化shell中的记事本，所有的linux系统都会默认自带这个编辑器，通常文本的编辑工作，如果没有别的编辑器可用，就直接使用vi vi的别名：神之编辑器 emacs：编辑器之神 基本使用1vi [文件名] 可以通过vi后面跟上参数来打开指定的文件来编辑，文件名如果存在，就是编辑操作，如果文件名对应的文件不存在，就是新建操作 也可以不跟参数，只是">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-10-09T00:45:43.000Z">
+<meta property="og:updated_time" content="2017-10-10T00:59:50.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="one.md">
 <meta name="twitter:description" content="vi基本介绍vi是一个编辑器，就类似于windows图形化shell中的记事本，所有的linux系统都会默认自带这个编辑器，通常文本的编辑工作，如果没有别的编辑器可用，就直接使用vi vi的别名：神之编辑器 emacs：编辑器之神 基本使用1vi [文件名] 可以通过vi后面跟上参数来打开指定的文件来编辑，文件名如果存在，就是编辑操作，如果文件名对应的文件不存在，就是新建操作 也可以不跟参数，只是">
@@ -112,7 +133,7 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Gemini',
+    scheme: 'Pisces',
     sidebar: {"position":"left","display":"post","offset":12,"offset_float":12,"b2t":false,"scrollpercent":false,"onmobile":false},
     fancybox: true,
     tabs: true,
@@ -139,7 +160,7 @@
 
 
 
-  <title>one.md | DawnTan</title>
+  <title>one.md | DawnTan的博客</title>
   
 
 
@@ -185,7 +206,7 @@
     <div class="custom-logo-site-title">
       <a href="/"  class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">DawnTan</span>
+        <span class="site-title">DawnTan的博客</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
@@ -230,16 +251,6 @@
         </li>
       
         
-        <li class="menu-item menu-item-about">
-          <a href="/about/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
-            
-            关于
-          </a>
-        </li>
-      
-        
         <li class="menu-item menu-item-archives">
           <a href="/archives/" rel="section">
             
@@ -260,12 +271,12 @@
         </li>
       
         
-        <li class="menu-item menu-item-sitemap">
-          <a href="/sitemap.xml" rel="section">
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-sitemap"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
             
-            站点地图
+            关于
           </a>
         </li>
       
@@ -321,7 +332,7 @@
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="DawnTan">
+      <meta itemprop="name" content="DawnTan的博客">
     </span>
 
     
@@ -351,6 +362,28 @@
             
           </span>
 
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/suibi/" itemprop="url" rel="index">
+                    <span itemprop="name">suibi</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
           
 
           
@@ -467,6 +500,12 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/vi编辑器/" rel="tag"># vi编辑器</a>
+          
+        </div>
+      
 
       
       
@@ -568,34 +607,48 @@
           
 
           
+            
+            
+            <div class="site-state-item site-state-categories">
+              <a href="/categories/index.html">
+                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
 
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              <a href="/tags/index.html">
+                <span class="site-state-item-count">3</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
           
 
         </nav>
 
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
         
 
         <div class="links-of-author motion-element">
           
             
               <span class="links-of-author-item">
-                <a href="https://github.com/your-user-name" target="_blank" title="GitHub">
+                <a href="https://github.com/Seadawn" target="_blank" title="GitHub">
                   
                     <i class="fa fa-fw fa-github"></i>
                   
                     
                       GitHub
-                    
-                </a>
-              </span>
-            
-              <span class="links-of-author-item">
-                <a href="https://twitter.com/your-user-name" target="_blank" title="Twitter">
-                  
-                    <i class="fa fa-fw fa-twitter"></i>
-                  
-                    
-                      Twitter
                     
                 </a>
               </span>
@@ -695,7 +748,7 @@
 <div class="theme-info">
   主题 -
   <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Gemini
+    NexT.Pisces
   </a>
 </div>
 
