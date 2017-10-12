@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-10-08T03:56:18.000Z</updated>
+  <updated>2017-10-12T03:00:35.440Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>iTerm2快捷键大全</title>
+    <link href="http://yoursite.com/2017/10/12/iTerm2%E5%BF%AB%E6%8D%B7%E9%94%AE%E5%A4%A7%E5%85%A8/"/>
+    <id>http://yoursite.com/2017/10/12/iTerm2快捷键大全/</id>
+    <published>2017-10-12T02:57:26.000Z</published>
+    <updated>2017-10-12T03:00:35.440Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="iTerm2-快捷键大全"><a href="#iTerm2-快捷键大全" class="headerlink" title="iTerm2 快捷键大全"></a>iTerm2 快捷键大全</h1><h3 id="标签"><a href="#标签" class="headerlink" title="标签"></a>标签</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">新建标签：command + t</div><div class="line"></div><div class="line">关闭标签：command + w</div><div class="line"></div><div class="line">切换标签：command + 数字 command + 左右方向键</div><div class="line"></div><div class="line">切换全屏：command + enter</div><div class="line"></div><div class="line">查找：command + f</div></pre></td></tr></table></figure><h3 id="分屏"><a href="#分屏" class="headerlink" title="分屏"></a>分屏</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">垂直分屏：command + d</div><div class="line"></div><div class="line">水平分屏：command + shift + d</div><div class="line"></div><div class="line">切换屏幕：command + option + 方向键 command + [ 或 command + ]</div><div class="line"></div><div class="line">查看历史命令：command + ;</div><div class="line"></div><div class="line">查看剪贴板历史：command + shift + h</div></pre></td></tr></table></figure><h3 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div></pre></td><td class="code"><pre><div class="line">清除当前行：ctrl + u</div><div class="line"></div><div class="line">到行首：ctrl + a</div><div class="line"></div><div class="line">到行尾：ctrl + e</div><div class="line"></div><div class="line">前进后退：ctrl + f/b (相当于左右方向键)</div><div class="line"></div><div class="line">上一条命令：ctrl + p</div><div class="line"></div><div class="line">搜索命令历史：ctrl + r</div><div class="line"></div><div class="line">删除当前光标的字符：ctrl + d</div><div class="line"></div><div class="line">删除光标之前的字符：ctrl + h</div><div class="line"></div><div class="line">删除光标之前的单词：ctrl + w</div><div class="line"></div><div class="line">删除到文本末尾：ctrl + k</div><div class="line"></div><div class="line">交换光标处文本：ctrl + t</div><div class="line"></div><div class="line">清屏1：command + r</div><div class="line"></div><div class="line">清屏2：ctrl + l</div><div class="line"></div><div class="line">自带有哪些很实用的功能/快捷键</div><div class="line"></div><div class="line">⌘ + 数字在各 tab 标签直接来回切换</div><div class="line"></div><div class="line">选择即复制 + 鼠标中键粘贴，这个很实用</div><div class="line"></div><div class="line">⌘ + f 所查找的内容会被自动复制</div><div class="line"></div><div class="line">⌘ + d 横着分屏 / ⌘ + shift + d 竖着分屏</div><div class="line"></div><div class="line">⌘ + r = clear，而且只是换到新一屏，不会想 clear 一样创建一个空屏</div><div class="line"></div><div class="line">ctrl + u 清空当前行，无论光标在什么位置</div><div class="line"></div><div class="line">输入开头命令后 按 ⌘ + ; 会自动列出输入过的命令</div><div class="line"></div><div class="line">⌘ + shift + h 会列出剪切板历史</div><div class="line"></div><div class="line">可以在 Preferences &gt; keys 设置全局快捷键调出 iterm，这个也可以用过 Alfred 实现</div></pre></td></tr></table></figure><h3 id="常用的一些快捷键"><a href="#常用的一些快捷键" class="headerlink" title="常用的一些快捷键"></a>常用的一些快捷键</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div></pre></td><td class="code"><pre><div class="line">⌘ + 1 / 2 左右 tab 之间来回切换，这个在 前面 已经介绍过了</div><div class="line"></div><div class="line">⌘← / ⌘→ 到一行命令最左边/最右边 ，这个功能同 C+a / C+e</div><div class="line"></div><div class="line">⌥← / ⌥→ 按单词前移/后移，相当与 C+f / C+b，其实这个功能在Iterm中已经预定义好了，⌥f / ⌥b，看个人习惯了</div><div class="line"></div><div class="line">好像就这几个</div><div class="line"></div><div class="line">设置方法如下</div><div class="line"></div><div class="line">当然除了这些可以自定义的也不能忘了 linux 下那些好用的组合</div><div class="line"></div><div class="line">C+a / C+e 这个几乎在哪都可以使用</div><div class="line"></div><div class="line">C+p / !! 上一条命令</div><div class="line"></div><div class="line">C+k 从光标处删至命令行尾 (本来 C+u 是删至命令行首，但iterm中是删掉整行)</div><div class="line"></div><div class="line">C+w A+d 从光标处删至字首/尾</div><div class="line"></div><div class="line">C+h C+d 删掉光标前后的自负</div><div class="line"></div><div class="line">C+y 粘贴至光标后</div><div class="line"></div><div class="line">C+r 搜索命令历史，这个较常用</div></pre></td></tr></table></figure><h2 id="选中即复制"><a href="#选中即复制" class="headerlink" title="选中即复制"></a>选中即复制</h2><ul><li>iterm2 有 2 种好用的选中即复制模式。</li><li>一种是用鼠标，在 iterm2 中，选中某个路径或者某个词汇，那么，iterm2 就自 动复制了。 　　<br>另一种是无鼠标模式，command+f,弹出 iterm2 的查找模式，输入要查找并复制的内容的前几个字母，确认找到的是自己的内容之后，输入 tab，查找窗口将自动变化内容，并将其复制。如果输入的是 shift+tab，则自动将查找内容的左边选中并复制。<br>自动完成<br>输入打头几个字母，然后输入 command+; iterm2 将自动列出之前输入过的类似命令。 　　</li></ul><h2 id="剪切历史"><a href="#剪切历史" class="headerlink" title="剪切历史"></a>剪切历史</h2><ul><li>输入 command+shift+h，iterm2 将自动列出剪切板的历史记录。如果需要将剪切板的历史记录保存到磁盘，在 Preferences &gt; General &gt; Save copy/paste history to disk 中设置。</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;iTerm2-快捷键大全&quot;&gt;&lt;a href=&quot;#iTerm2-快捷键大全&quot; class=&quot;headerlink&quot; title=&quot;iTerm2 快捷键大全&quot;&gt;&lt;/a&gt;iTerm2 快捷键大全&lt;/h1&gt;&lt;h3 id=&quot;标签&quot;&gt;&lt;a href=&quot;#标签&quot; class=&quot;
+      
+    
+    </summary>
+    
+      <category term="Mac系统" scheme="http://yoursite.com/categories/Mac%E7%B3%BB%E7%BB%9F/"/>
+    
+    
+      <category term="iTerm2" scheme="http://yoursite.com/tags/iTerm2/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
@@ -48,6 +73,31 @@
     
     </summary>
     
+    
+  </entry>
+  
+  <entry>
+    <title>Mac显示隐藏文件</title>
+    <link href="http://yoursite.com/2016/10/11/Mac%E6%98%BE%E7%A4%BA%E9%9A%90%E8%97%8F%E6%96%87%E4%BB%B6/"/>
+    <id>http://yoursite.com/2016/10/11/Mac显示隐藏文件/</id>
+    <published>2016-10-11T14:43:18.000Z</published>
+    <updated>2017-10-11T14:48:56.780Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="MAC系统如何显示隐藏文件解决方法"><a href="#MAC系统如何显示隐藏文件解决方法" class="headerlink" title="MAC系统如何显示隐藏文件解决方法"></a>MAC系统如何显示隐藏文件解决方法</h1><p>苹果Mac OS 操作系统下，隐藏文件默认为隐藏状态，隐藏文件是否显示有多种方法可以设置。</p><h4 id="方法一："><a href="#方法一：" class="headerlink" title="方法一："></a>方法一：</h4><p><strong>打开终端，输入命令行</strong></p><blockquote><p>显示Mac隐藏文件的命令：<br>defaults write com.apple.finder AppleShowAllFiles -bool true</p><p>隐藏Mac隐藏文件的命令：<br>defaults write com.apple.finder AppleShowAllFiles -bool false</p></blockquote><h5 id="或者"><a href="#或者" class="headerlink" title="或者"></a>或者</h5><blockquote><p>显示Mac隐藏文件的命令：<br>defaults write com.apple.finder AppleShowAllFiles YES</p><p>隐藏Mac隐藏文件的命令：<br>defaults write com.apple.finder AppleShowAllFiles NO</p></blockquote><p><strong>输完单击Enter键，退出终端，重新启动Finder就可以了</strong></p><blockquote><p>重启Finder：鼠标单击窗口左上角的苹果标志–&gt;强制退出–&gt;Finder–&gt;重新启动</p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;MAC系统如何显示隐藏文件解决方法&quot;&gt;&lt;a href=&quot;#MAC系统如何显示隐藏文件解决方法&quot; class=&quot;headerlink&quot; title=&quot;MAC系统如何显示隐藏文件解决方法&quot;&gt;&lt;/a&gt;MAC系统如何显示隐藏文件解决方法&lt;/h1&gt;&lt;p&gt;苹果Mac OS 操
+      
+    
+    </summary>
+    
+      <category term="Mac系统" scheme="http://yoursite.com/categories/Mac%E7%B3%BB%E7%BB%9F/"/>
+    
+    
+      <category term="文件隐藏" scheme="http://yoursite.com/tags/%E6%96%87%E4%BB%B6%E9%9A%90%E8%97%8F/"/>
     
   </entry>
   
