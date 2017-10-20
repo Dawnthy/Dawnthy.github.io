@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-10-12T03:00:35.440Z</updated>
+  <updated>2017-10-13T01:54:01.854Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Typora For Markdown语法</title>
+    <link href="http://yoursite.com/2017/10/13/Typora-For-Markdown%E8%AF%AD%E6%B3%95/"/>
+    <id>http://yoursite.com/2017/10/13/Typora-For-Markdown语法/</id>
+    <published>2017-10-13T00:46:38.000Z</published>
+    <updated>2017-10-13T01:54:01.854Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Typora-For-Markdown-语法"><a href="#Typora-For-Markdown-语法" class="headerlink" title="Typora For Markdown 语法"></a>Typora For Markdown 语法</h1><p>Typora是一个功能强大的Markdown编辑器，使用GFM风格（即大名鼎鼎的github flavored markdown），Typora目前支持Mac OS和Windows，Linux。Typora可以插入数学表达式，插入表情，表格，支持标准的Markdown语法，可以使用标注….，功能强悍！！！还可以导出PDF文件和HTLM文件。实时预览！！！非常牛逼！</p><h3 id="数学表达式"><a href="#数学表达式" class="headerlink" title="数学表达式"></a>数学表达式</h3><p>要启用这个功能，首先到<code>Preference</code>-&gt;<code>Editor</code>中启用。然后使用<code>$</code>符号包裹Tex命令，例如：<code>$lim_{x \to \infty} \ exp(-x)=0$</code>将产生如下的数学表达式：</p><h3 id="下标"><a href="#下标" class="headerlink" title="下标"></a>下标</h3><p>下标使用<code>~</code>包裹，例如：<code>H~2~O</code>将产生水的分子式。</p><h3 id="上标"><a href="#上标" class="headerlink" title="上标"></a>上标</h3><p>上标使用<code>^</code>包裹，例如：<code>y^2^=4</code>将产生表达式。</p><p><strong>注意:</strong>  需要在preferences&gt; syntax support 中找到<strong>superscript 和 subscript </strong>选项，打上勾。</p><h3 id="插入表情"><a href="#插入表情" class="headerlink" title="插入表情"></a>插入表情</h3><p>使用<code>:happy:</code>输入高兴的表情，使用<code>:sad:</code>输入悲伤的表情，使用<code>:cry:</code>输入哭的表情等。以此类推！</p><h3 id="下划线"><a href="#下划线" class="headerlink" title="下划线"></a>下划线</h3><p>用HTML的语法<code>&lt;u&gt;Underline&lt;/u&gt;</code>将产生下划线Underline.</p><h3 id="删除线"><a href="#删除线" class="headerlink" title="删除线"></a>删除线</h3><p>GFM添加了删除文本的语法，这是标准的Markdown语法木有的。使用<code>~~</code>包裹的文本将会具有删除的样式，例如<code>~删除文本~</code>将产生<del>删除文本</del>的样式。</p><p><img src="/Users/dawntan/Desktop/1182605-1cbd9bb6f1ed0be4.gif" alt="1182605-1cbd9bb6f1ed0be4"></p><h3 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h3><ul><li>使用`包裹的内容将会以代码样式显示，例如</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">使用`printf()`</div></pre></td></tr></table></figure><p>则会产生<code>printf()</code>样式。</p><ul><li><p>输入</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">​~~~</div></pre></td></tr></table></figure><p>或者<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"></div><div class="line"></div></pre></td></tr></table></figure></p><p>public Class HelloWorld{<br>  System.out.println(“Hello World!”);<br>}</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">### 强调</div><div class="line"></div><div class="line">使用两个*号或者两个_包裹的内容将会被强调。例如</div></pre></td></tr></table></figure><p><strong>使用两个*号强调内容</strong><br><strong>使用两个下划线强调内容</strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">将会输出</div><div class="line"></div><div class="line">**使用两个\*号强调内容**</div><div class="line">**使用两个下划线强调内容**</div><div class="line">Typroa 推荐使用两个*号。</div><div class="line"></div><div class="line">### 斜体</div><div class="line"></div><div class="line">在标准的Markdown语法中，*和_包裹的内容会是斜体显示，但是GFM下划线一般用来分隔人名和代码变量名，因此我们推荐是用星号来包裹斜体内容。如果要显示星号，则使用转义：</div></pre></td></tr></table></figure><p>*</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">### 插入图片</div><div class="line"></div><div class="line">我们可以通过拖拉的方式，将本地文件夹中的图片或者网络上的图片插入。</div><div class="line"></div><div class="line">drag and drop image</div><div class="line"></div><div class="line">### 插入URL连接</div><div class="line"></div><div class="line">使用尖括号包裹的url将产生一个连接，例如：`&lt;www.baidu.com&gt;`将产生连接:[www.baidu.com](http://www.baidu.com/).</div><div class="line"></div><div class="line">如果是标准的url，则会自动产生连接，例如:[www.google.com](http://www.google.com/)</div><div class="line"></div><div class="line">### 目录列表Table of Contents（TOC）</div><div class="line"></div><div class="line">输入[toc]然后回车，将会产生一个目录，这个目录抽取了文章的所有标题，自动更新内容。</div><div class="line"></div><div class="line">### 水平分割线</div><div class="line"></div><div class="line">使用`***`或者`---`，然后回车，来产生水平分割线。</div><div class="line"></div><div class="line">------</div><div class="line"></div><div class="line">### 标注</div><div class="line"></div><div class="line">我们可以对某一个词语进行标注。例如</div></pre></td></tr></table></figure></li></ul><p>某些人用过了才知道[^注释]<br>[^注释]:Somebody that I used to know.<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">将产生：</div><div class="line"></div><div class="line">注释</div><div class="line"></div><div class="line">把鼠标放在`注释`上，将会有提示内容。</div><div class="line"></div><div class="line">### 表格</div></pre></td></tr></table></figure></p><table><thead><tr><th style="text-align:left">姓名</th><th style="text-align:center">性别</th><th style="text-align:center">毕业学校</th><th style="text-align:right">工资</th></tr></thead><tbody><tr><td style="text-align:left">杨洋</td><td style="text-align:center">男</td><td style="text-align:center">重庆交通大学</td><td style="text-align:right">3200</td></tr><tr><td style="text-align:left">峰哥</td><td style="text-align:center">男</td><td style="text-align:center">贵州大学</td><td style="text-align:right">5000</td></tr><tr><td style="text-align:left">坑货</td><td style="text-align:center">女</td><td style="text-align:center">北京大学</td><td style="text-align:right">2000</td></tr></tbody></table><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">将产生:</div><div class="line"></div><div class="line">| 姓名   | 性别   | 毕业学校   | 工资   |</div><div class="line">| ---- | ---- | ------ | ---- |</div><div class="line">| 杨洋   | 男    | 重庆交通大学 | 3200 |</div><div class="line">| 峰哥   | 男    | 贵州大学   | 5000 |</div><div class="line">| 坑货   | 女    | 北京大学   | 2000 |</div><div class="line"></div><div class="line">其中代码的第二行指定对齐的方式，第一个是左对齐，第二个和第三个是居中，最后一个是右对齐。</div><div class="line"></div><div class="line">### 数学表达式块</div><div class="line"></div><div class="line">输入两个美元符号，然后回车，就可以输入数学表达式块了。例如：</div></pre></td></tr></table></figure><p> $$\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix} \mathbf{i} &amp; \mathbf{j} &amp; \mathbf{k} \\frac{\partial X}{\partial u} &amp;  \frac{\partial Y}{\partial u} &amp; 0 \\frac{\partial X}{\partial v} &amp;  \frac{\partial Y}{\partial v} &amp; 0 \\end{vmatrix}$$<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">将会产生:</div><div class="line"></div><div class="line">数学表达式块</div><div class="line"></div><div class="line">### 任务列表</div><div class="line"></div><div class="line">使用如下的代码创建任务列表，在[]中输入x表示完成，也可以通过点击选择完成或者没完成。</div></pre></td></tr></table></figure></p><ul><li style="list-style: none"><input type="checkbox"> 吃饭</li><li style="list-style: none"><input type="checkbox"> 逛街</li><li style="list-style: none"><input type="checkbox"> 看电影</li><li style="list-style: none"><input type="checkbox"> 约泡<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">任务列表</div><div class="line"></div><div class="line">### 列表</div><div class="line"></div><div class="line">输入+, -, *,创建无序的列表，使用任意数字开头，创建有序列表，例如：</div></pre></td></tr></table></figure></li></ul><p><strong>无序的列表</strong></p><ul><li>tfboys</li><li>杨洋</li><li>我爱你<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">**无序的列表**</div><div class="line"></div><div class="line">- tfboys</div><div class="line">- 杨洋</div><div class="line">- 我爱你</div></pre></td></tr></table></figure></li></ul><p><strong>有序的列表</strong></p><ol><li>苹果</li><li>香蕉</li><li>我都不喜欢<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">**有序的列表**</div><div class="line"></div><div class="line">1. 苹果</div><div class="line">2. 香蕉</div><div class="line">3. 我都不喜欢</div><div class="line"></div><div class="line">### 块引用</div><div class="line"></div><div class="line">使用&gt;来插入块引用。例如：</div></pre></td></tr></table></figure></li></ol><blockquote><p>这是一个块引用！<br>```</p></blockquote><p>将产生：</p><blockquote><p>这是一个块引用！</p></blockquote><h3 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h3><p>使用#表示一级标题，##表示二级标题，以此类推，有6个标题。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Typora-For-Markdown-语法&quot;&gt;&lt;a href=&quot;#Typora-For-Markdown-语法&quot; class=&quot;headerlink&quot; title=&quot;Typora For Markdown 语法&quot;&gt;&lt;/a&gt;Typora For Markdown 
+      
+    
+    </summary>
+    
+      <category term="Mac系统" scheme="http://yoursite.com/categories/Mac%E7%B3%BB%E7%BB%9F/"/>
+    
+    
+      <category term="Typora" scheme="http://yoursite.com/tags/Typora/"/>
+    
+      <category term="Markdown" scheme="http://yoursite.com/tags/Markdown/"/>
+    
+  </entry>
   
   <entry>
     <title>iTerm2快捷键大全</title>
@@ -38,41 +65,6 @@
     
     
       <category term="iTerm2" scheme="http://yoursite.com/tags/iTerm2/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://yoursite.com/2017/10/11/hello-world/"/>
-    <id>http://yoursite.com/2017/10/11/hello-world/</id>
-    <published>2017-10-11T10:28:11.000Z</published>
-    <updated>2017-10-08T03:56:18.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>hehehe</title>
-    <link href="http://yoursite.com/2017/10/09/hehehe/"/>
-    <id>http://yoursite.com/2017/10/09/hehehe/</id>
-    <published>2017-10-09T04:58:47.000Z</published>
-    <updated>2017-10-09T04:58:46.000Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
     
   </entry>
   
@@ -102,11 +94,11 @@
   </entry>
   
   <entry>
-    <title>hexoIndex无法生成.md</title>
+    <title>hexo无法生成index.html的问题</title>
     <link href="http://yoursite.com/2015/10/09/hexoIndex%E6%97%A0%E6%B3%95%E7%94%9F%E6%88%90/"/>
     <id>http://yoursite.com/2015/10/09/hexoIndex无法生成/</id>
     <published>2015-10-09T01:14:36.000Z</published>
-    <updated>2017-10-09T16:12:30.000Z</updated>
+    <updated>2017-10-14T13:41:02.624Z</updated>
     
     <content type="html"><![CDATA[<h2 id="hexo-g-无法生成-index"><a href="#hexo-g-无法生成-index" class="headerlink" title="hexo g 无法生成 index"></a>hexo g 无法生成 index</h2><p>构建情况如下图：</p><p><img src="http://ojlsgreog.bkt.clouddn.com/ganningZHexoNoIndex" alt="img"></p><p>但是一些文件没有生成，如 <code>index.html</code> 文件。</p><h2 id="查看-npm-安装各-hexo-插件的情况"><a href="#查看-npm-安装各-hexo-插件的情况" class="headerlink" title="查看 npm 安装各 hexo 插件的情况"></a>查看 npm 安装各 hexo 插件的情况</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm ls --depth 0</div></pre></td></tr></table></figure><h2 id="hexo-的一些插件未安装插件"><a href="#hexo-的一些插件未安装插件" class="headerlink" title="hexo 的一些插件未安装插件"></a>hexo 的一些插件未安装插件</h2><p><strong>npm ERR! missing npm ERR! missing hexo-generator-archive…</strong></p><p><img src="http://ojlsgreog.bkt.clouddn.com/ganningZHexoNPMls.png" alt="img"></p><h2 id="解决"><a href="#解决" class="headerlink" title="解决"></a>解决</h2><p>逐一安装缺失的包</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">npm install hexo-generator-archive --save</div><div class="line">...</div></pre></td></tr></table></figure><p>可能遇到无法安装hexo-server</p><p>清空npm 缓存  重新安装</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">npm cache clean --force</div><div class="line">npm install hexo-server</div></pre></td></tr></table></figure><p>安装完后重新构建即可解决。</p>]]></content>
     
@@ -119,37 +111,12 @@
     
     </summary>
     
-      <category term="Diary" scheme="http://yoursite.com/categories/Diary/"/>
+      <category term="npm包管理" scheme="http://yoursite.com/categories/npm%E5%8C%85%E7%AE%A1%E7%90%86/"/>
     
     
-      <category term="PS3" scheme="http://yoursite.com/tags/PS3/"/>
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
     
-      <category term="Games" scheme="http://yoursite.com/tags/Games/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>one.md</title>
-    <link href="http://yoursite.com/2014/10/09/one-md/"/>
-    <id>http://yoursite.com/2014/10/09/one-md/</id>
-    <published>2014-10-09T00:44:33.000Z</published>
-    <updated>2017-10-10T00:59:50.000Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="vi"><a href="#vi" class="headerlink" title="vi"></a>vi</h1><h2 id="基本介绍"><a href="#基本介绍" class="headerlink" title="基本介绍"></a>基本介绍</h2><p>vi是一个编辑器，就类似于windows图形化shell中的记事本，所有的linux系统都会默认自带这个编辑器，通常文本的编辑工作，如果没有别的编辑器可用，就直接使用vi</p><p>vi的别名：<br>神之编辑器</p><p>emacs：<br>编辑器之神</p><h2 id="基本使用"><a href="#基本使用" class="headerlink" title="基本使用"></a>基本使用</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">vi [文件名]</div></pre></td></tr></table></figure><p>可以通过vi后面跟上参数来打开指定的文件来编辑，文件名如果存在，就是编辑操作，如果文件名对应的文件不存在，就是新建操作</p><p>也可以不跟参数，只是单纯的打开编辑器！</p><h2 id="vi编辑器模式介绍"><a href="#vi编辑器模式介绍" class="headerlink" title="vi编辑器模式介绍"></a>vi编辑器模式介绍</h2><ol><li>普通模式<br>普通模式下，无法进行内容编辑， 普通模式下，每个按键都会对应自己的命令</li><li>插入模式<br>插入模式下，我们可以像使用正常的编辑器一样，去编辑内容</li><li>命令模式<br>可以输入不同的命令，来实现不同的功能</li></ol><h2 id="模式之间的切换"><a href="#模式之间的切换" class="headerlink" title="模式之间的切换"></a>模式之间的切换</h2><ol><li>普通—&gt;插入<br>i      i键代表的就是insert   在当前字母前插入<br>I                           在当前行最前插入<br>a      a键代表的就是append   在当前字母后插入<br>A                           在当前行最后插入</li><li>插入—&gt;普通<br>esc<br>ctrl + [</li><li>普通—&gt;命令<br>:</li><li>命令—&gt;普通<br>esc * 2</li><li>插入模式和命令模式不能直接切换，需要先切换到普通模式中！</li></ol><h2 id="普通模式"><a href="#普通模式" class="headerlink" title="普通模式"></a>普通模式</h2><p>每个按键都有自己不同的功能：</p><ol><li>删除功能<br><code>dd</code>  删除光标所在的一整行<br><code>dw</code>  删除光标所在的后面的一个单词</li><li>撤销<br><code>u</code> 撤销</li><li>开一个新行<br><code>o</code> 在光标所在的行下面开一个新行<br><code>O</code> 在光标所在的行上面开一个新行</li><li>复制<br><code>yy</code> 复制光标所在的行    yank<br><code>yw</code> 复制一个单词</li><li>粘贴<br><code>p</code>  粘贴               paste</li><li>光标的移动指令<ol><li>方向键（不推荐使用）</li><li>h j k l</li><li>w e b </li></ol></li><li>重复命令<br>数字+命令</li></ol><h2 id="插入模式"><a href="#插入模式" class="headerlink" title="插入模式"></a>插入模式</h2><p>和正常编辑器一样使用就可以！</p><h2 id="命令模式"><a href="#命令模式" class="headerlink" title="命令模式"></a>命令模式</h2><p>保存：   :w<br>退出：   :q<br>保存并退出： :wq</p><p>如果使用的<code>vi</code>直接没有指定文件名进入编辑器，那么保存的时候需要指定文件名<br><code>:w</code> 文件名</p><p>如果使用的是<code>vi</code> 文件名 进入的编辑器，那么保存的时候直接<code>:w</code></p><p>如果修改了文件内容之后，没有保存直接<code>:q</code> 无法退出，所以需要先<code>:w</code>，再<code>:q</code><br>或者直接<code>:wq</code></p><p>如果修改之后，不想保存，就想退出，直接<code>:q!</code></p><p>如果编辑器非正常退出，比如直接点击了窗口的关闭按钮，那么下次进入编辑器编辑刚才的文件的时候，会出现报错，解决方法就是，直接将，生成的.xxx.swp文件删除重新打开编辑器就可以了！！</p><h2 id="重点内容："><a href="#重点内容：" class="headerlink" title="重点内容："></a>重点内容：</h2><ol><li>如何从普通模式进入插入模式！！</li><li>如和保存并退出！！</li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;vi&quot;&gt;&lt;a href=&quot;#vi&quot; class=&quot;headerlink&quot; title=&quot;vi&quot;&gt;&lt;/a&gt;vi&lt;/h1&gt;&lt;h2 id=&quot;基本介绍&quot;&gt;&lt;a href=&quot;#基本介绍&quot; class=&quot;headerlink&quot; title=&quot;基本介绍&quot;&gt;&lt;/a&gt;基本介绍&lt;/h
-      
-    
-    </summary>
-    
-      <category term="suibi" scheme="http://yoursite.com/categories/suibi/"/>
-    
-    
-      <category term="vi编辑器" scheme="http://yoursite.com/tags/vi%E7%BC%96%E8%BE%91%E5%99%A8/"/>
+      <category term="npm" scheme="http://yoursite.com/tags/npm/"/>
     
   </entry>
   
